@@ -1,0 +1,32 @@
+.root{
+-fx-background-color: #323232;
+}
+
+#bodyPane{
+/*-fx-background-color: linear-gradient(to right bottom, #96deda , #50c9c3);*/
+-fx-background-color: linear-gradient(to right bottom, #1A1E1E 80%,#79A8A4 , #A89779);
+/*-fx-background-color: linear-gradient(to right bottom, #4158D0 , #C850C0 , #50c9c3);*/
+
+}
+
+.button{
+-fx-border-radius: 0;
+-fx-background-color: #E59329;
+-fx-border-color:Transparent;
+-fx-font-size: 1em;
+}
+.button:pressed:hover {
+-fx-background-color: Transparent;
+    -fx-border-color:linear-gradient(to right, #f2f0c9, #f7f4a7, #faf882, #fdfc57, #ffff00);
+    -fx-border-radius: 20;
+    -fx-text-fill:White;
+    -fx-font-size: 1.5em;
+}
+
+.button:hover {
+-fx-background-color: Transparent;
+-fx-border-color:linear-gradient(to right, #f2f0c9, #f7f4a7, #faf882, #fdfc57, #ffff00);
+-fx-border-radius: 20;
+    -fx-text-fill:White;
+    -fx-font-size: 1.5em;
+}

@@ -1,0 +1,13 @@
+.root{
+-fx-background-color: #323232;
+}
+
+#AboutPane{
+-fx-background-color: linear-gradient(to right bottom, #ffe800, #ffba00, #ff8a1c, #ff553e, #ff0059);
+}
+.Hlink:hover {
+    -fx-text-fill: Cyan;
+}
+.Hlink:pressed:hover {
+    -fx-text-fill: Cyan;
+}
